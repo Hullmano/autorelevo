@@ -1,4 +1,4 @@
-@media screen and (min-width: 330px) and (max-width: 568px)
+@media screen and (min-width: 340px) and (max-width: 568px)
 {
      .wrap{width:100%;}
      .wrap{margin:0;}
@@ -10,7 +10,9 @@
 /*     .wrap input[type=submit]{margin: 5px 0 0 0;} */
      .wrap{font-size:19px;}
 
-     .linha label{font-size: 16px;}
+/*     .linha label{font-size: 16px;} */
+	 .col{font-size: 16px;}
+	 .col1{font-size: 9px;}
 }
 
 body{
@@ -23,7 +25,7 @@ h3, h4{
 }
 
 .wrap{
-	width: 320px;
+	width: 330px;
 	height: 100%;
 	margin: 0 auto;
 	padding: 0;
@@ -55,11 +57,11 @@ h3, h4{
 	width: 47%;
 }
 #dtVenc{
-	width: 47%;
+	width: 46%;
 }
 
 .linha{
-	width: 320px;
+	width: 330px;
 }
 
 .col{
@@ -68,17 +70,26 @@ h3, h4{
 
 
 .col1{
-	width: 28%;
+	width: 5%;
+	font-size: 9px;
+	color: blue;
 }
 .col2{
-	width: 16%;
+	width: 30%;
 }
 .col3{
-	width: 28%;
+	width: 17%;
 }
 .col4{
 	width: 28%;
 }
+.col5{
+	width: 20%;
+}
 .cRed{
 	color: red;
 }
+/*.tot{
+	font-weight: bold;
+	margin: 1px 0 1px 0;
+} */
